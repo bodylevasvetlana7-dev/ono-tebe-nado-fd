@@ -1,12 +1,7 @@
 /* место для вашего кода */
-body {
-    background-color: #fff;
-}
-
 .content-block {
     box-sizing: border-box;
     width: 100%;
-    min-height: 180px;
     padding: 0 50px;
 }
 
@@ -44,26 +39,32 @@ body {
 .header_links-list-item_no-bullit {
     list-style: none;
 }
+
 .header_link {
     font-size: 18px;
     font-weight: normal;
     text-underline-offset: 3px;
 }
 
-
-.header_address {
-    max-width: 240px;
-    justify-self: end;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.header_link_active {
+    text-decoration: none;
 }
 
 .address {
+    display: flex;
+    flex-direction: column;
     font-size: 18px;
     font-weight: normal;
     line-height: 1.3;
 }
+
+.header_address {
+    max-width: 240px;
+    justify-self: end;
+    align-items: flex-start;
+}
+
+
 
 .address p {
     font-style: normal;
@@ -83,6 +84,11 @@ a {
     background-image: url(../images/cover.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.upoverlay {
+    position: relative;
+    z-index: 2;
 }
 
 .overlay {
@@ -117,15 +123,18 @@ a {
 
 .text_center {
     text-align: center;
-    padding-top: 20px;
     padding-left: 30px;
 }
 
 .text_right {
     text-align: right;
-    padding-top: 20px;
     padding-right: 0;
     padding-left: 612px;
+}
+
+.text_center,
+.text_right {
+    padding-top: 20px;
 }
 
 .description {
@@ -135,11 +144,11 @@ a {
     align-items: baseline;
 }
 
-.description p {
+.description_text {
     font-size: 22px;
     font-weight: normal;
     line-height: 1.3;
-    letter-spacing: 1.1;
+    letter-spacing: 2px;
     text-transform: uppercase;
     color: #fff;
 }
@@ -157,7 +166,6 @@ a {
 .lots {
     box-sizing: border-box;
     width: 1052px;
-    min-height: 723px;
     padding: 180px 24px 120px 24px;
 }
 
@@ -237,21 +245,23 @@ a {
     font-family: normal;
     color: #000;
     display: block;
-    padding: 30px 0 0 40px;
+    line-height: 1.2;
+    letter-spacing: 1.6px;
+    padding-top: 30px;
+    padding-left: 40px;
     text-underline-offset: 4px;
 }
 
 .about {
     box-sizing: border-box;
     width: 1052px;
-    height: 595px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 50px;
+    gap: 49px;
 }
 
 .about_logo {
-    padding: 35px 0 320px 70px;
+    padding: 34px 0 320px 70px;
 }
 
 .about_circle {
@@ -278,7 +288,7 @@ a {
     font-weight: bold;
     color: #000;
     text-transform: uppercase;
-    padding: 3px 0 102px 0;
+    padding: 2px 0 102px 0;
 }
 
 .about_text {
@@ -296,8 +306,7 @@ a {
 .footer {
     box-sizing: border-box;
     width: 1100px;
-    height: 180px;
-    padding: 180px 0 0 0;
+    padding: 167px 0 0 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -305,12 +314,9 @@ a {
 }
 
 .footer_address {
-    display: flex;
-    flex-direction: column;
     width: 265px;
     padding-top: 0;
     padding-left: 50px;
-    padding-bottom: 82px;
 }
 .footer_text {
     width: 260px;
@@ -324,7 +330,7 @@ a {
     width: 164px;
     font-size: 18px;
     font-weight: normal;
-    padding-left: 14px;
+    padding-left: 15px;
     text-underline-offset: 4px;
 }
 
