@@ -169,7 +169,6 @@ a {
     width: 1052px;
     margin: 0 24px auto;
     margin-bottom: 120px;
-    /* padding: 180px 24px 120px 24px; */
 }
 
 .lots_heading {
@@ -181,7 +180,6 @@ a {
     font-weight: bold;
     color: #000;
     text-transform: uppercase;
-    /* padding: 0 891px 27px 40px; */
 }
 
 .lots_card-list {
@@ -341,10 +339,9 @@ a {
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* width: 164px; */
     font-size: 18px;
     font-weight: normal;
-    padding-left: 16px;
+    padding-left: 23px;
     padding-bottom: 117px;
     text-underline-offset: 4px;
 }
