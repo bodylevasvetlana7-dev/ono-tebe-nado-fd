@@ -149,7 +149,7 @@ a {
     font-size: 22px;
     font-weight: normal;
     line-height: 1.3;
-    letter-spacing: 2px;
+    word-spacing: 18px;
     text-transform: uppercase;
     color: #fff;
 }
@@ -173,11 +173,15 @@ a {
 }
 
 .lots_heading {
+    position: relative;
+    top: 0;
+    left: 40px;
+    margin-bottom: 27px;
     font-size: 40px;
     font-weight: bold;
     color: #000;
     text-transform: uppercase;
-    padding: 0 891px 27px 40px;
+    /* padding: 0 891px 27px 40px; */
 }
 
 .lots_card-list {
@@ -245,11 +249,9 @@ a {
 
 .more {
     font-size: 20px;
-    font-family: normal;
+    font-weight: normal;
     color: #000;
     display: block;
-    line-height: 1.2;
-    letter-spacing: 1.6px;
     padding-top: 30px;
     padding-left: 40px;
     text-underline-offset: 4px;
@@ -339,10 +341,10 @@ a {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 164px;
+    /* width: 164px; */
     font-size: 18px;
     font-weight: normal;
-    padding-left: 15px;
+    padding-left: 16px;
     padding-bottom: 117px;
     text-underline-offset: 4px;
 }
